@@ -1,6 +1,6 @@
 /* this makes sure that wvwrything thats on the page is 100%*/
 html, body { 
-    background: black no-repeat center center fixed; 
+    background: rgb(0, 0, 0) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
