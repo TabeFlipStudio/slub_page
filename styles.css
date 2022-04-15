@@ -20,20 +20,20 @@ html, body {
 .text {
     color: rgb(253, 253, 253);
     text-align: center;
-    font-size: 2em;
+    font-size: 2vw;
 }
 
 .ps {
     color: rgb(253, 253, 253);
     text-align: center;
-    font-size: 25px;
+    font-size: 1vw;
     font-family: 'Times New Roman', Times, serif;
 }
 
 .end{
     color: rgb(253, 253, 253);
     margin-left: 85%;
-    font-size: 2em;
+    font-size: 2vw;
 }
 
 .img {
