@@ -1,5 +1,10 @@
 /* this makes sure that wvwrything thats on the page is 100%*/
-html, body {
+html, body { 
+    background: black no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     height:100%;
     width:100%;
     margin:0;
@@ -11,6 +16,10 @@ html, body {
     text-align: center;
 
     font-size: 5vw;
+}
+
+p {
+color: rgb(253, 253, 253);
 }
 
 .img {
