@@ -11,15 +11,21 @@ html, body {
     padding:0;
 }
 
-  h1{
+  .amogus{
     color: red;
     text-align: center;
-
     font-size: 6vw;
 }
 
 p {
-color: rgb(253, 253, 253);
+    color: rgb(253, 253, 253);
+    text-align: center;
+    font-size: 2em;
+}
+.end{
+    color: rgb(253, 253, 253);
+    margin-left: 85%;
+    font-size: 2em;
 }
 
 .img {
