@@ -1,14 +1,24 @@
 /* this makes sure that wvwrything thats on the page is 100%*/
 html, body {
-    background: rgb(0, 0, 0) no-repeat center center fixed;
+    background: pink no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
+    position: relative;
     background-size: cover;
-    height:100%;
-    width:100%;
-    margin:0;
-    padding:0;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#title {
+  font-family: comic sans ms;
+  font-size: 48px;
+  text-align: center;
+  color: black;
+  position: relative;
+  top: 30%;
 }
 
 #main-page {
@@ -53,6 +63,8 @@ html, body {
 }
 
 .ps {
+    position: relative;
+    top: 30%;
     color: rgb(253, 253, 253);
     text-align: center;
     font-size: 1vw;
@@ -60,9 +72,16 @@ html, body {
 }
 
 .end{
+    position: relative;
+    top: 30%;
     color: rgb(253, 253, 253);
     margin-left: 85%;
     font-size: 2vw;
+}
+
+.list-group-item {
+  position: relative;
+  top: 30%;
 }
 
 .img {
@@ -71,7 +90,6 @@ html, body {
     margin-right: auto;
     width: 100%;
 }
-
 
 .button {
   background-color: rgb(0, 255, 121);
