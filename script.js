@@ -5,9 +5,9 @@
 
     // bind to the onload event
     window.addEventListener('load', function() {
-      // Get the current state from globalstorage
+      // Get the current state from localstorage
       // State is stored as a JSON string
-      cbstate = JSON.parse(globalStorage.CBState || '{}');
+      cbstate = JSON.parse(localStorage.CBState || '{}');
 
       // Loop through state array and restore checked
       // state for matching elements
@@ -35,7 +35,7 @@
           }
 
       // Persist state
-          globalStorage.CBState = JSON.stringify(cbstate);
+          localStorage.CBState = JSON.stringify(cbstate);
         });
       }
     });
