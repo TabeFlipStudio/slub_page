@@ -1,19 +1,20 @@
 /* this makes sure that wvwrything thats on the page is 100%*/
-html, body {
-    background: pink no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    position: relative;
-    background-size: cover;
-    height: 100%;
-    width: 100%;
-    margin: 0;
-    padding: 0;
+html,
+body {
+  background: pink no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  position: relative;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
 }
 
 #title {
-  font-family: comic sans ms;
   font-size: 48px;
   text-align: center;
   color: black;
@@ -46,37 +47,35 @@ html, body {
   bottom: auto;
   z-index: 2;
   width: 6cm;
-  font-family: comic sans ms; cursive;
   font-size: bigger;
 }
 
-  .amogus{
-    color: red;
-    text-align: center;
-    font-size: 6vw;
+.amogus {
+  color: red;
+  text-align: center;
+  font-size: 6vw;
 }
 
 .text {
-    color: rgb(253, 253, 253);
-    text-align: center;
-    font-size: 2vw;
+  color: rgb(253, 253, 253);
+  text-align: center;
+  font-size: 2vw;
 }
 
-.ps {
-    position: relative;
-    top: 30%;
-    color: rgb(253, 253, 253);
-    text-align: center;
-    font-size: 1vw;
-    font-family: 'Times New Roman', Times, serif;
+#ps {
+  position: relative;
+  top: 30%;
+  color: rgb(253, 253, 253);
+  text-align: center;
+  font-size: 1vw;
 }
 
-.end{
-    position: relative;
-    top: 30%;
-    color: rgb(253, 253, 253);
-    margin-left: 85%;
-    font-size: 2vw;
+#credits {
+  position: relative;
+  top: 30%;
+  color: rgb(253, 253, 253);
+  margin-left: 85%;
+  font-size: 2vw;
 }
 
 .list-group-item {
@@ -84,15 +83,20 @@ html, body {
   top: 30%;
 }
 
+#checkboxes {
+  text-align: center;
+  top: 30%;
+}
+
 .img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
 }
 
 .button {
-  background-color: rgb(0, 255, 121);
+  background-color: aqua;
   position: static;
   border-radius: 20px 20px 20px 20px;
   width: 3cm;
@@ -105,7 +109,7 @@ html, body {
   padding-bottom: 0.1cm;
   padding-left: 0.2cm;
   padding-right: 0.2cm;
-  font-family: Calibri; sans-serif;
+  font-family: Calibri sans-serif;
   font-size: 16px;
   text-align: center;
   color: white;
@@ -114,3 +118,4 @@ html, body {
 .button-link {
   text-decoration: none;
 }
+
