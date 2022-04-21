@@ -1,3 +1,7 @@
+<!--Z jakichś przyczyn divy przycisków w panelu nie ograniczają się tylko do tych ładnych
+bloków, które się wyświetlają, ale rozszerzają się na całą szerokość panelu.
+Zobacz se w Inspekcie-->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,7 +9,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src='script.js'></script>
     <link rel="stylesheet" href="styles.css">
     <title>
         Ślub i wesele Ani i Darka
@@ -29,10 +32,11 @@
 
     <div id="panel">
       Spis treści
+      <!-- JS will add anchors to the buttons-->
       <div class="button">Jak dojadę?         </div>
       <div class="button">Zamiast kwiatów     </div>
       <div class="button">Lista prezentów     </div>
-      <a href="usimages.html"><div class="button">Zdjęcia i filmy</div></a>
+      <div class="button">Zdjęcia i filmy     </div>
       <div class="button">Spraw jeszcze kilka </div>
     </div>
     <h1 id="credits">
@@ -40,6 +44,7 @@
     </h1>
 
 
-
+    <script src='script.js'></script>
+    <!--<script src='hyperlinks.js'></script>-->
 </body>
 </html>

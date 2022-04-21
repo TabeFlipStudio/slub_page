@@ -1,3 +1,8 @@
+/*
+Ten plik trzeba będzie podzielić na mniejsze pliki.
+W sensie, żeby jeden plik zawierał kod wykonujący jedno zadanie, tak jak w hyperlinks.js
+*/
+
 // Avoid scoping issues by encapsulating code inside anonymous function
 (function () {
   // variable to store our current state
