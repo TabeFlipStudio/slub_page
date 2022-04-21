@@ -67,11 +67,16 @@
     $.each(data, function (key, value) {
       var $elem = $('[name="' + key + '"]', $form);
       var type = $elem.first().attr('type');
+
       if (type == 'radio') {
         $('[name="' + key + '"][value="' + value + '"]').prop('checked', true);
-      } else if (type == 'checkbox' && (value == true || value == 'true')) {
+      }
+
+      else if (type == 'checkbox' && (value == true || value == 'true')) {
         $('[name="' + key + '"]').prop('checked', true);
-      } else {
+      }
+
+      else {
         $elem.val(value);
       }
     });
@@ -96,11 +101,12 @@ $(document).ready(function () {
       console.log('Loading form data...');
       console.log(JSON.parse(localStorage['form_data']));
       $('data').fromJSON(localStorage['form_data']);
-    } else {
+    }
+
+    else {
       console.log('Error: Save some data first');
     }
 
     return false;
   });
 });
-
