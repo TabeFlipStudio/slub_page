@@ -113,11 +113,11 @@ body {
   color: white;
 }
 
-div #panel: last-child {
-  background-color: black;
-  padding-bottom: 0;
+/*This is to remove the link markdown from the buttons*/
+#panel a {
+  text-decoration: none;
 }
 
-.button-link {
-  text-decoration: none;
+#panel > .button:last-child {
+  padding-bottom: 5%;
 }
