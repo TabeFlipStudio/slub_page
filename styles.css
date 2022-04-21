@@ -48,13 +48,8 @@ body {
   z-index: 2;
   width: 6cm;
   font-size: bigger;
+  font-family: comic sans ms;
   text-align: center;
-}
-
-.text {
-  color: rgb(253, 253, 253);
-  text-align: center;
-  font-size: 2vw;
 }
 
 #ps {
@@ -73,16 +68,23 @@ body {
   font-size: 2vw;
 }
 
+#checkboxes {
+  text-align: center;
+  top: 30%;
+}
+
+.text {
+  color: rgb(253, 253, 253);
+  text-align: center;
+  font-size: 2vw;
+}
+
 .list-group-item {
   position: relative;
   top: 30%;
   text-align: center;
 }
 
-#checkboxes {
-  text-align: center;
-  top: 30%;
-}
 
 .img {
   display: block;
@@ -105,7 +107,7 @@ body {
   padding-bottom: auto;
   padding-left: 0.2cm;
   padding-right: 0.2cm;
-  font-family: Calibri sans-serif;
+  font-family: Calibri;
   font-size: 16px;
   text-align: inherit;
   color: white;
