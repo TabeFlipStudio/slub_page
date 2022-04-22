@@ -47,7 +47,7 @@ body {
   right: auto;
   bottom: auto;
   z-index: 2;
-  width: 6cm;
+  width: 15vw;
   font-size: bigger;
   font-family: comic sans ms;
   text-align: center;
@@ -116,9 +116,4 @@ body {
 /*This is to remove the link markdown from the buttons*/
 #panel a {
   text-decoration: none;
-}
-
-/*The last button is a two-liner and fits bad with default values*/
-#panel > .button:last-child {
-  padding-bottom: 5%;
 }
