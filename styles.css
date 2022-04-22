@@ -16,6 +16,7 @@ body {
 
 #title {
   font-size: 48px;
+  font-family: comic sans ms;
   text-align: center;
   color: black;
   position: relative;
@@ -97,10 +98,9 @@ body {
   background-color: aqua;
   position: static;
   border-radius: 20px 20px 20px 20px;
-  width: 3cm;
+  width: 80%;
   height: 1cm;
-  margin-left: 1.5cm;
-  margin-right: 1.5cm;
+  margin: auto;
   margin-top: 0.2cm;
   margin-bottom: 0.2cm;
   padding-top: 5%;
@@ -118,6 +118,7 @@ body {
   text-decoration: none;
 }
 
+/*The last button is a two-liner and fits bad with default values*/
 #panel > .button:last-child {
   padding-bottom: 5%;
 }
