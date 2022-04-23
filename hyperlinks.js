@@ -2,7 +2,7 @@
 
 var buttons = document.getElementsByClassName('button')
 var subpages = [ // hrefs fro the anchors
-  'usimages.html',
+  'map.html',
   'usimages.html',
   'usimages.html',
   'usimages.html',
