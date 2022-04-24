@@ -5,7 +5,7 @@ var subpages = [ // hrefs from the anchors
   'index.html',
   'map.html',
   'usimages.html',
-  'usimages.html',
+  'prezenty.html',
   'usimages.html',
   'usimages.html'
 ];
