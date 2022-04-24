@@ -20,7 +20,6 @@ h2 {
   text-align: center;
   color: black;
   position: relative;
-  top: 30%;
 }
 
 #title {
@@ -29,7 +28,6 @@ h2 {
   text-align: center;
   color: black;
   position: relative;
-  top: 30%;
 }
 
 #main-page {
@@ -48,12 +46,12 @@ h2 {
 }
 
 #panel {
+  display: block;
   background-color: rgb(0, 224, 215);
   border-radius: 10px 10px 10px 10px;
   position: absolute;
-  top: 12cm;
+  top: 12;
   left: 1cm;
-  z-index: 2;
   width: 15vw;
   font-size: bigger;
   font-family: comic sans ms;
@@ -62,7 +60,6 @@ h2 {
 
 #ps {
   position: relative;
-  top: 30%;
   color: rgb(253, 253, 253);
   text-align: center;
   font-size: 1vw;
@@ -70,7 +67,6 @@ h2 {
 
 #credits {
   position: relative;
-  top: 30%;
   color: rgb(253, 253, 253);
   margin-left: 85%;
   font-size: 2vw;
@@ -78,7 +74,17 @@ h2 {
 
 #checkboxes {
   text-align: center;
-  top: 30%;
+}
+
+#wisdom {
+  display: block;
+  background-color: rgb(255, 208, 203);
+  width: 40vw;
+  height: auto;
+  position: relative;
+  margin: auto;
+  font-family: comic sans ms;
+  font-size: 32px;
 }
 
 
@@ -94,7 +100,6 @@ h2 {
   width: 40vw;
   height: 30vw;
   position: relative;
-  top: 30%;
   margin: auto;
 }
 
@@ -112,16 +117,7 @@ h2 {
 
 .list-group-item {
   position: relative;
-  top: 30%;
   text-align: center;
-}
-
-
-.img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
 }
 
 .button {

@@ -19,7 +19,7 @@ function getPureFilename(path) {
   return path;
 };
 
-// This 'wraps' all the buttons with anchors to appropriate subpages
+/*This 'wraps' all the buttons with anchors to appropriate subpages*/
 for (var i = 0; i < buttons.length; i++) {
   let button = buttons[i];
   let a = document.createElement('a');
@@ -30,7 +30,7 @@ for (var i = 0; i < buttons.length; i++) {
 
 };
 
-// This fades out button referring to this page, so you know which page you are on
+/*This fades out button referring to this page, so you know which page you are on*/
 buttons = document.getElementsByClassName('button'); // Var 'buttons' gotta be refreshed for some reasons
 for (var i = 0; i < buttons.length; i++) {
   let button = buttons[i];
