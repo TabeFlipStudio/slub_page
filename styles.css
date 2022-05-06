@@ -15,7 +15,6 @@ body {
 }
 
 h2 {
-  /*font-size: 48px;*/
   font-family: comic sans ms;
   text-align: center;
   color: black;
@@ -65,16 +64,16 @@ video {
   text-align: center;
 }
 
+/*This is to remove the link markdown from the buttons*/
+#panel a {
+  text-decoration: none;
+}
 
 #credits {
   position: relative;
   color: rgb(253, 253, 253);
   margin-left: 85%;
   font-size: 2vw;
-}
-
-#checkboxes {
-  text-align: center;
 }
 
 #wisdom {
@@ -88,6 +87,18 @@ video {
   font-size: 32px;
 }
 
+#presents {
+  width: 50vw;
+  height: auto;
+  margin: auto;
+}
+
+#presents li {
+  font-size: 32px;
+  font-family: comic sans ms, cursive, sans-serif;
+  color: black;
+  text-align: left;
+}
 
 #title-pictures {
   display: flex;
@@ -96,13 +107,6 @@ video {
   padding: 0;
 }
 
-.map {
-  display: block;
-  width: 40vw;
-  height: 30vw;
-  position: relative;
-  margin: auto;
-}
 
 .title-picture {
   margin: 0;
@@ -110,11 +114,12 @@ video {
   height: auto;
 }
 
-.ps {
+.map {
+  display: block;
+  width: 40vw;
+  height: 30vw;
   position: relative;
-  color: black;
-  text-align: center;
-  font-size: 1vw;
+  margin: auto;
 }
 
 .text {
@@ -145,9 +150,4 @@ video {
   font-size: 16px;
   text-align: inherit;
   color: white;
-}
-
-/*This is to remove the link markdown from the buttons*/
-#panel a {
-  text-decoration: none;
 }
