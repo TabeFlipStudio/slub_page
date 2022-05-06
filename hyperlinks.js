@@ -42,3 +42,15 @@ for (var i = 0; i < buttons.length; i++) {
     button.style = "opacity: 70%;";
   };
 };
+
+
+/*This makes button bigger when mouse is over - a nice visual effect*/
+for (var i = 0; i < buttons.length; i++) {
+  buttons[i].addEventListener('mouseover', function() {
+    this.style = "width: 90%";
+  });
+
+  buttons[i].addEventListener('mouseout', function () {
+    this.style = "width: 80%";
+  });
+}
