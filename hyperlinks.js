@@ -19,6 +19,21 @@ function getPureFilename(path) {
   return path;
 };
 
+function fadeOutButton() {
+  /*This fades out button referring to this page, so you know which page you are on*/
+  buttons = document.getElementsByClassName('button'); // Var 'buttons' gotta be refreshed for some reasons
+  for (var i = 0; i < buttons.length; i++) {
+    let button = buttons[i];
+    let buttonHref = getPureFilename(button.parentNode.href); // Get the path to a button's subpage and simplify it
+    let me = getPureFilename(window.location.pathname); // Get the name of this page and simplify it
+
+    // Does the button refer to this page?
+    if (me === buttonHref) {
+      button.style = "opacity: 70%;";
+    };
+  };
+};
+
 /*This 'wraps' all the buttons with anchors to appropriate subpages*/
 for (var i = 0; i < buttons.length; i++) {
   let button = buttons[i];
@@ -30,27 +45,17 @@ for (var i = 0; i < buttons.length; i++) {
 
 };
 
-/*This fades out button referring to this page, so you know which page you are on*/
-buttons = document.getElementsByClassName('button'); // Var 'buttons' gotta be refreshed for some reasons
-for (var i = 0; i < buttons.length; i++) {
-  let button = buttons[i];
-  let buttonHref = getPureFilename(button.parentNode.href); // Get the path to a button's subpage and simplify it
-  let me = getPureFilename(window.location.pathname); // Get the name of this page and simplify it
-
-  // Does the button refer to this page?
-  if (me === buttonHref) {
-    button.style = "opacity: 70%;";
-  };
-};
-
+fadeOutButton();
 
 /*This makes button bigger when mouse is over - a nice visual effect*/
 for (var i = 0; i < buttons.length; i++) {
   buttons[i].addEventListener('mouseover', function() {
     this.style = "width: 90%";
+    fadeOutButton();
   });
 
   buttons[i].addEventListener('mouseout', function () {
     this.style = "width: 80%";
+    fadeOutButton();
   });
 }
