@@ -128,6 +128,11 @@ video {
   font-size: 2vw;
 }
 
+.ps {
+  font-family: comic sans ms, cursive, sans-serif;
+  text-align: center;
+}
+
 .list-group-item {
   position: relative;
   text-align: center;
