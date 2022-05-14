@@ -28,6 +28,13 @@ video {
   margin: auto;
 }
 
+#present-booking{
+  display: block;
+  margin: auto;
+  width: 2in;
+  height: 0.5in;
+}
+
 #title {
   font-size: 48px;
   font-family: comic sans ms;
