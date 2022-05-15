@@ -40,6 +40,7 @@
   <div id="presents" class="text">
     <ul>
       <li>Wielofunkcyjny blender (coś podobnego, jak <a href="https://www.euro.com.pl/blendery/bosch-clevermixx-msm2650b.bhtml"> tutaj </a>)</li>
+      <li class="booked">Zestaw noży <div class="booked-marker">Zajęte</div></li>
       <li>Zestaw sztućców</li>
       <li>Zestaw patelni Gerlach Smart</li>
       <li>Zestaw garnków</li>
@@ -52,13 +53,19 @@
     </ul>
   </div>
 
-<form action="https://hook.eu1.make.com/is95jv15aip7mr9nuudvmksxbm5brk9o" method="post">
+<form id="present-booking" action="https://hook.eu1.make.com/is95jv15aip7mr9nuudvmksxbm5brk9o" method="post" target="_blank">
   <h2>
-    Jeśli chcesz zarezerwować jakiś prezent (aby się nie powtarzały), wpisz jego
-    nazwę w pole poniżej i kliknij ENTER, a Wszechmogący Programista oznaczy ten
+    Jeśli chcesz zarezerwować jakiś prezent (aby para młoda nie dostała 12 kompletów patelni), wpisz jego
+    nazwę w pole poniżej i kliknij <i>Zarezerwuj</i>, a Wszechmogący Programista oznaczy ten
     prezent jako zajęty tak szybko jak to możliwe.
   </h2>
-  <input type="text" name="present" value="Prezent do zarezerwowania" id="present-booking">
+  <input type="text" name="who" value="Kto rezerwuje? (tylko do wglądu Programisty)">
+  <input type="text" name="present" value="Wpisz prezent tutaj">
+  <input type="submit" name="submit" value="Zarezerwuj">
+
+  <h2>
+    Bardzo prosimy o rezerwowanie kupowanych prezentów, aby uniknąć zderzeń.
+  </h2>
 </form>
 
   <script src="script.js"></script>

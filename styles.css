@@ -28,11 +28,11 @@ video {
   margin: auto;
 }
 
-#present-booking{
+#present-booking > *:not(h2) {
   display: block;
   margin: auto;
-  width: 2in;
-  height: 0.5in;
+  width: 4in;
+  height: 0.25in;
 }
 
 #title {
@@ -162,4 +162,19 @@ video {
   font-size: 16px;
   text-align: inherit;
   color: white;
+}
+
+.booked {
+  text-decoration: line-through;
+  opacity: 75%;
+}
+
+.booked-marker {
+  display: inline-block;
+  border-radius: 20px 20px 20px 20px;
+  text-align: center;
+  width: 10vw;
+  height: auto;
+  background-color: gray;
+  text-decoration: none
 }
