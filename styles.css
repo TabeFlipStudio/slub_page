@@ -36,7 +36,7 @@ video {
 }
 
 #title {
-  font-size: 48px;
+  font-size: 3.4vw;
   font-family: comic sans ms;
   text-align: center;
   color: black;
@@ -58,6 +58,8 @@ video {
   border-radius: 15px 15px 15px 15px;
 }
 
+/*The control panel to navigate on the website - lists all subpages and contains anchors
+to them*/
 #panel {
   display: block;
   background-color: rgb(0, 224, 215);
@@ -76,6 +78,7 @@ video {
   text-decoration: none;
 }
 
+/*In index.html - our names*/
 #credits {
   position: relative;
   color: rgb(253, 253, 253);
@@ -83,6 +86,8 @@ video {
   font-size: 2vw;
 }
 
+/*The thoughts that Ania and Darek may perhaps want to put on the page.
+Temporarily (?) occupied by my own wisdom*/
 #wisdom {
   display: block;
   background-color: rgb(255, 208, 203);
@@ -94,12 +99,15 @@ video {
   font-size: 32px;
 }
 
+/*The list of all the presents they would love to get (prezenty.html)*/
+/*This is a container div*/
 #presents {
   width: 50vw;
   height: auto;
   margin: auto;
 }
 
+/*Actual items on the list*/
 #presents li {
   font-size: 32px;
   font-family: comic sans ms, cursive, sans-serif;
@@ -107,6 +115,7 @@ video {
   text-align: left;
 }
 
+/*Things from else.html - the page containing extra informations about the wedding*/
 #info-board {
   width: 60vw;
   margin: auto;
@@ -119,6 +128,7 @@ video {
   margin-bottom: 20px;
 }
 
+/*The pictures on the top of all pages - the container*/
 #title-pictures {
   display: flex;
   flex-flow: row nowrap;
@@ -126,12 +136,14 @@ video {
   padding: 0;
 }
 
+/*The pictures on the top of all pages - the items*/
 .title-picture {
   margin: 0;
   width: 16.7vw;
   height: auto;
 }
 
+/*Minimaps in map.html*/
 .map {
   display: block;
   width: 40vw;
@@ -140,22 +152,13 @@ video {
   margin: auto;
 }
 
-.text {
-  color: rgb(253, 253, 253);
-  text-align: center;
-  font-size: 2vw;
-}
-
+/*Dunno what this originally was, but it's used as a comment to the video in usimages.html*/
 .ps {
   font-family: comic sans ms, cursive, sans-serif;
   text-align: center;
 }
 
-.list-group-item {
-  position: relative;
-  text-align: center;
-}
-
+/*The buttons on the control panel*/
 .button {
   background-color: aqua;
   position: static;
@@ -175,11 +178,13 @@ video {
   color: white;
 }
 
+/*Tag used to mark the presents that have been booked by the guests*/
 .booked {
   text-decoration: line-through;
   opacity: 75%;
 }
 
+/*Class for a div, additionally marking the booked presents (assigned automatically by JavaScript)*/
 .booked-marker {
   display: inline-block;
   border-radius: 20px 20px 20px 20px;
