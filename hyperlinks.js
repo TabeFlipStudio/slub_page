@@ -7,7 +7,7 @@ var subpages = [ // hrefs from the anchors
   'not_flowers.html',
   'prezenty.html',
   'usimages.html',
-  'usimages.html'
+  'else.html'
 ];
 
 function getPureFilename(path) {

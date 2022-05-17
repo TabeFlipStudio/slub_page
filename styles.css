@@ -107,13 +107,24 @@ video {
   text-align: left;
 }
 
+#info-board {
+  width: 60vw;
+  margin: auto;
+  text-align: left;
+  font-family: comic sans ms, cursive, sans-serif;
+  font-size: 2vw;
+}
+
+#info-board li {
+  margin-bottom: 20px;
+}
+
 #title-pictures {
   display: flex;
   flex-flow: row nowrap;
   font-size: 0;
   padding: 0;
 }
-
 
 .title-picture {
   margin: 0;
