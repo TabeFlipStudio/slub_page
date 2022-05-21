@@ -29,34 +29,12 @@ video {
   margin: auto;
 }
 
-#present-booking > *:not(h2) {
-  display: block;
-  margin: auto;
-  width: 4in;
-  height: 0.25in;
-}
-
 #title {
   font-size: 3.4vw;
   font-family: comic sans ms;
   text-align: center;
   color: black;
   position: relative;
-}
-
-#main-page {
-  background-color: white;
-  margin-left: 3in;
-  margin-right: 3in;
-  margin-top: 4cm;
-  margin-bottom: auto;
-  padding-top: 0.5cm;
-  padding-bottom: 0.5cm;
-  padding-left: 0.5cm;
-  padding-right: 0.5cm;
-  position: static;
-  z-index: 2;
-  border-radius: 15px 15px 15px 15px;
 }
 
 /*The control panel to navigate on the website - lists all subpages and contains anchors
@@ -114,6 +92,13 @@ Temporarily (?) occupied by my own wisdom*/
   font-family: comic sans ms, cursive, sans-serif;
   color: black;
   text-align: left;
+}
+
+#present-booking > *:not(h2) {
+  display: block;
+  margin: auto;
+  width: 25vw;
+  height: 0.25in;
 }
 
 /*Things from else.html - the page containing extra informations about the wedding*/
