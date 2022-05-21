@@ -1,10 +1,10 @@
+var inputs = document.getElementsByTagName('input');
+inputs = [].slice.call(inputs); // Arrayify the HTMLCollection (return of getElementsByTagName)
+inputs.pop(); // Remove the Submit button from the array
+
 /*This is called after clicking the sumbit button; it gets the input values from the textboxes and returns them*/
 function getBookInput() {
   let output = '';
-  var inputs = document.getElementsByTagName('input');
-  inputs = [].slice.call(inputs); // Arrayify the HTMLCollection (return of getElementsByTagName)
-  inputs.pop(); // Remove the Submit button from the array
-
   for (var i = 0; i < inputs.length; i++) {
     let data = inputs[i].value;
     output += data + '; ';
@@ -28,4 +28,11 @@ function sendBookRequest() {
 
   let output = JSON.stringify(parameters);
   request.send(output);
+};
+
+/*This empties the textboxes after clicking on them*/
+for (i = 0; i < inputs.length; i++) {
+  inputs[i].addEventListener('focus', function() {
+    this.value = '';
+  });
 };
