@@ -175,7 +175,7 @@ Temporarily (?) occupied by my own wisdom*/
 /*Tag used to mark the presents that have been booked by the guests*/
 .booked {
   text-decoration: line-through;
-  opacity: 75%;
+  opacity: 35%;
 }
 
 /*Class for a div, additionally marking the booked presents (assigned automatically by JavaScript)*/
@@ -186,5 +186,5 @@ Temporarily (?) occupied by my own wisdom*/
   width: 10vw;
   height: auto;
   background-color: gray;
-  text-decoration: none
+  text-decoration: none;
 }
