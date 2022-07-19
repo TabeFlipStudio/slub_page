@@ -1,7 +1,8 @@
-/*
-Ten plik trzeba będzie podzielić na mniejsze pliki.
-W sensie, żeby jeden plik zawierał kod wykonujący jedno zadanie, tak jak w hyperlinks.js
-*/
+// This removes the default-on div telling user that they've disabled JS in their browser
+// (if they did, this code will not be run so the block will remain)
+$(document).ready(function() {
+  $('#JS-Not-Found').css('display', 'none');
+});
 
 // Avoid scoping issues by encapsulating code inside anonymous function
 (function () {
