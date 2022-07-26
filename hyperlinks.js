@@ -15,13 +15,12 @@ function getPureFilename(path) {
   this: file:///D:/Piotrek/AniaDarekStrona/index.html) and returns pure
   filename (index.html here)*/
   let slash_inx = path.lastIndexOf('/'); // Pure filename begins after last slash in the path
-  path = path.slice(slash_inx + 1); //Don't include the slash
+  path = path.slice(slash_inx + 1); // Don't include the slash
   return path;
 };
 
 function fadeOutButton() {
   /*This fades out button referring to this page, so you know which page you are on*/
-  buttons = document.getElementsByClassName('button'); // Var 'buttons' gotta be refreshed for some reasons
   for (var i = 0; i < buttons.length; i++) {
     let button = buttons[i];
     let buttonHref = getPureFilename(button.parentNode.href); // Get the path to a button's subpage and simplify it
