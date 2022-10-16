@@ -37,6 +37,15 @@ video {
   margin: auto;
 }
 
+#gdrive-photos
+{
+  background-color: white;
+  display: block;
+  width: 50vw;
+  height: 45vw;
+  margin: auto;
+}
+
 #JS-Not-Found {
   color: red;
   font-size: 2.5vw;
